@@ -252,6 +252,10 @@ header .logo-web {
   flex-basis: 264px;
 }
 
+.their-name-port {
+  margin-bottom: 8px;
+}
+
 .their-name {
   font-size: 20px;
   font-weight: 500;
@@ -290,7 +294,11 @@ header .logo-web {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
+}
+
+.types-portfolio {
+  flex: 1;
+  background-color: #ffffff;
 }
 
 .types-portfolio img {
