@@ -112,6 +112,7 @@ header .logo-web {
 .address-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .address-item {
@@ -129,7 +130,7 @@ header .logo-web {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 24px 0;
+
 }
 
 .contact-link:hover,
