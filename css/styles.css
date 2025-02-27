@@ -301,16 +301,11 @@ header .logo-web {
   padding: 120px 0;
 }
 
-
 /*------------------------------------------------------------------*/
-
 
 .header-links {
   display: flex;
   gap: 40px;
-}
-
-.header-links li:first-child {
   padding: 24px 0;
 }
 
@@ -319,12 +314,10 @@ header .logo-web {
 }
 
 .footer-studio {
-
   color: #2e2f42;
 }
 
 .footer-page {
-
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
