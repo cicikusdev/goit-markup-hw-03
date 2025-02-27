@@ -31,7 +31,13 @@ body {
   min-height: 100vh;
 }
 
-h1,h2,h3,h4,h5,h6,p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
 }
 
@@ -46,13 +52,13 @@ h1,h2,h3,h4,h5,h6,p {
   align-items: center;
 }
 
-
 header {
   color: #ffffff;
   border-bottom: 1px solid #e7e9fc;
 }
 
-header .logo-web { /*50 küsür*/
+header .logo-web {
+  /*50 küsür*/
   /*+*/
   font-weight: 700;
   font-family: "Raleway", sans-serif;
@@ -64,11 +70,18 @@ header .logo-web { /*50 küsür*/
   margin-right: 76px;
 }
 
+.navigation {
+  display: flex;
+  align-items: center;
+}
 
+.navigation ul {
+  display: flex;
+  gap: 40px;
+}
 
-
-
-.navigation .contact-link:hover { /*121*/
+.navigation .contact-link:hover {
+  /*121*/
   color: #404bbf;
 }
 
@@ -85,7 +98,8 @@ header .logo-web { /*50 küsür*/
   letter-spacing: 0.02em;
 }
 
-.email-address:hover, .email-address:focus {
+.email-address:hover,
+.email-address:focus {
   color: #404bbf;
 }
 
@@ -170,7 +184,7 @@ header .logo-web { /*50 küsür*/
 }
 
 .punkt {
-  width: calc((1128px - 72px)/4);
+  width: calc((1128px - 72px) / 4);
   flex-shrink: 0;
 }
 
@@ -184,7 +198,7 @@ header .logo-web { /*50 küsür*/
   margin-bottom: 8px;
 }
 
-.benefits{
+.benefits {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -197,14 +211,9 @@ header .logo-web { /*50 küsür*/
 .description {
   font-weight: 400;
   font-size: 16px;
-  color:#434455;
+  color: #434455;
   line-height: 1.5; /*252px*/
-
 }
-
-
-
-
 
 .one-member img {
   display: block;
@@ -280,7 +289,6 @@ header .logo-web { /*50 küsür*/
 }
 
 /*------------------------------------------------------------------*/
-
 
 /* /* Header Stilleri */
 
@@ -453,12 +461,11 @@ header .logo-web { /*50 küsür*/
   list-style-type: none;
 }
 
-**/ 
+**/
 
 /* Footer */
 
-
-.footer-part {
+.footer-page {
   /*+*/
   color: #ffffff;
   font-family: "Roboto", sans-serif;
@@ -466,13 +473,19 @@ header .logo-web { /*50 küsür*/
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
+  padding: 100px 0;
 }
 
-.footer-part {
+.footer-page {
   /*+*/
   background-color: #2e2f42;
 }
-.logo-and {
+
+.footer-page a {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.footer-web {
   /*+*/
   font-family: "Raleway", sans-serif;
   font-weight: 700;
