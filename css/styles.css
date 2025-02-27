@@ -310,6 +310,10 @@ header .logo-web {
   gap: 40px;
 }
 
+.header-links li:first-child {
+  padding: 24px 0;
+}
+
 .footer-studio {
 
   color: #2e2f42;
