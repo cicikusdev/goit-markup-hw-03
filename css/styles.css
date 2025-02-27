@@ -314,6 +314,10 @@ header .logo-web {
   padding: 24px 0;
 }
 
+.types-portfolio:first-child .app-function {
+  margin-bottom: 8px;
+}
+
 .footer-studio {
 
   color: #2e2f42;
