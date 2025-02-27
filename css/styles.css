@@ -102,6 +102,10 @@ header .logo-web { /*50 küsür*/
   flex-direction: column;
 }
 
+.section-first {
+  padding: 188px 0;
+}
+
 .big-title {
   max-width: 496px;
   color: #ffffff;
@@ -148,12 +152,12 @@ header .logo-web { /*50 küsür*/
 }
 
 .visually-hidden {
+  overflow: hidden;
   position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
   padding: 0;
-  overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
