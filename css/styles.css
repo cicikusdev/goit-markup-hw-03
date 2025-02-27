@@ -21,6 +21,20 @@ img {
   height: auto;
 }
 
+body {
+  /*+*/
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+  line-height: 24px;
+  font-size: 16px;
+  min-height: 100vh;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  margin: 0;
+}
+
 .container {
   width: 1158px;
   padding: 0 15px;
@@ -32,39 +46,13 @@ img {
   align-items: center;
 }
 
-.navigation {
-  display: flex;
-  align-items: center;
-}
 
 header {
   color: #ffffff;
   border-bottom: 1px solid #e7e9fc;
 }
 
-/* Genel Stiller */
-body {
-  /*+*/
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
-  line-height: 24px;
-  font-size: 16px;
-  min-height: 100vh;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
-/* Header Stilleri */
-header .logo-web {
+header .logo-web { /*50 küsür*/
   /*+*/
   font-weight: 700;
   font-family: "Raleway", sans-serif;
@@ -76,22 +64,239 @@ header .logo-web {
   margin-right: 76px;
 }
 
+
+
+
+
+.navigation .contact-link:hover { /*121*/
+  color: #404bbf;
+}
+
+.address-list {
+  display: flex;
+  gap: 40px;
+}
+
+.email-address {
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.email-address:hover, .email-address:focus {
+  color: #404bbf;
+}
+
+.phone-number {
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.section-one {
+  display: flex;
+  flex-direction: column;
+}
+
+.big-title {
+  max-width: 496px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  margin-bottom: 48px;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  min-width: 169px;
+  display: block;
+  border: none;
+  height: 56px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.button:hover,
+.button:focus {
+  /*+*/
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
+.section-second {
+  padding: 120px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.section-second ul {
+  display: flex;
+  gap: 24px;
+  flex-direction: row;
+  flex-shrink: 0;
+}
+
+.punkt {
+  width: calc((1128px - 72px)/4);
+  flex-shrink: 0;
+}
+
+.title-second {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.benefits{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  color:#434455;
+  line-height: 1.5; /*252px*/
+
+}
+
+
+
+
+
+.one-member img {
+  display: block;
+  max-width: 100%;
+}
+
+.port-list {
+  background-color: #ffffff;
+  display: block;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.introduction {
+  text-transform: capitalize;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.team-members {
+  display: flex;
+  gap: 24px;
+  flex-basis: 264px;
+}
+
+.their-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.their-job {
+  font-weight: 400;
+  font-size: 16px;
+  color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.section-four {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.list-portfolio {
+  display: flex;
+  row-gap: 48px;
+  margin-left: 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 24px;
+}
+
+.app-function {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.types-portfolio img {
+  width: 100%;
+}
+
+/*------------------------------------------------------------------*/
+
+
+/* /* Header Stilleri */
+
+/**
 .header-links {
   display: flex;
   gap: 40px;
 }
 .logo-accent {
-  /*+*/
+
   color: #2e2f42;
 }
 
 .logo-accents {
-  /*+*/
+  
   color: #2e2f42;
 }
 
 .nav-link {
-  /*+*/
+  
   letter-spacing: 0.02em;
   color: #2e2f42;
   font-weight: 500;
@@ -101,7 +306,7 @@ header .logo-web {
 
 .nav-link:hover,
 .nav-link:focus {
-  /*+*/
+  
   color: #404bbf;
 }
 
@@ -120,12 +325,12 @@ header .logo-web {
 }
 
 .contact-info {
-  /*+*/
+  
   font-style: normal;
 }
 
 .contact-link {
-  /*+*/
+  
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
@@ -135,18 +340,17 @@ header .logo-web {
 
 .contact-link:hover,
 .contact-link:focus {
-  /*+*/
+  
   color: #404bbf;
 }
 
-/* Ana Bölüm */
 .hero {
-  /*+*/
+  
   background-color: #2e2f42;
 }
 
 .hero-title {
-  /*+*/
+  
   max-width: 496px;
   color: #ffffff;
   font-weight: 700;
@@ -162,7 +366,7 @@ header .logo-web {
 }
 
 .hero-button {
-  /*+*/
+  
   background-color: #4d5ae5;
   border-radius: 4px;
   color: #ffffff;
@@ -183,12 +387,11 @@ header .logo-web {
 
 .hero-button:hover,
 .hero-button:focus {
-  /*+*/
+  
   background-color: #404bbf;
   color: #ffffff;
 }
 
-/* Özellikler Bölümü */
 
 .features-container {
   padding: 120px 0;
@@ -196,9 +399,8 @@ header .logo-web {
 
 
 
-
 .header-two {
-  /*+*/
+  
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.02em;
@@ -209,7 +411,7 @@ header .logo-web {
 }
 
 .header-three {
-  /*+*/
+  
   font-weight: 500;
   font-size: 20px;
   color: #2e2f42;
@@ -218,36 +420,39 @@ header .logo-web {
 }
 
 .body-text {
-  /*+*/
+  
   font-size: 16px;
   letter-spacing: 0.02em;
   color: #434455;
   line-height: 1.5;
 }
 
-/* Takım Bölümü */
 .our-team {
-  /*+*/
+  
   background-color: #f4f4fd;
   text-align: center;
 }
 
 .team-member {
-  /*+*/
+  
   background-color: #ffffff;
   text-align: center;
 }
 
 .our-portfolio {
-  /*+*/
+  
   text-align: center;
 }
 
 .portfolio.item {
-  /*+*/
+  
   list-style-type: none;
 }
+
+**/ 
+
 /* Footer */
+
 
 .footer-part {
   /*+*/
