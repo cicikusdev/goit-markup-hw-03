@@ -290,7 +290,6 @@ header .logo-web {
   flex-wrap: wrap;
   justify-content: space-between;
   column-gap: 24px;
-  width: calc((100% - 72px) / 4);
 }
 
 .app-function {
@@ -301,9 +300,9 @@ header .logo-web {
 }
 
 .types-portfolio {
+  width: calc((100% - 72px) / 4);
   flex: 1;
   background-color: #ffffff;
-  flex-basis: calc((100% - 72px) / 4);
 }
 
 .types-portfolio img {
