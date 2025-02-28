@@ -318,12 +318,14 @@ header .logo-web {
   padding: 24px 0;
 }
 
+.studio-link {
+  padding: 24px 0;
+}
 /*------------------------------------------------------------------*/
 
 .header-links {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .types-portfolio:first-child .app-function {
