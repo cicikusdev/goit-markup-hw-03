@@ -301,7 +301,7 @@ header .logo-web {
 
 .types-portfolio {
   flex-basis: calc((100% - 3 * 24px) / 4);  
-  flex: 1;
+  flex-shrink: 0;
   background-color: #ffffff;
 }
 
