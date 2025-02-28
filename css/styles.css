@@ -303,6 +303,7 @@ header .logo-web {
 .types-portfolio {
   flex: 1;
   background-color: #ffffff;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .types-portfolio img {
@@ -330,7 +331,6 @@ header .logo-web {
 
 .types-portfolio:first-child .app-function {
   margin-bottom: 8px;
-  width: calc((100% - 3 * 24px) / 4);
 }
 
 .footer-studio {
