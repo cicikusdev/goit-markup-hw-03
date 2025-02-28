@@ -290,6 +290,7 @@ header .logo-web {
   flex-wrap: wrap;
   justify-content: space-between;
   column-gap: 24px;
+  width: calc((100% - 72px) / 4);
 }
 
 .app-function {
@@ -316,9 +317,7 @@ header .logo-web {
 .navigation ul li {
   padding: 24px 0;
 }
-.list-portfolio li:first-child {
-  width: calc((100% - 72px) / 4);
-}
+
 /*------------------------------------------------------------------*/
 
 .header-links {
