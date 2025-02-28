@@ -300,7 +300,7 @@ header .logo-web {
 }
 
 .types-portfolio {
-  width: calc((100% - 72px) / 3);
+  width: calc((100% - 72px) / 3) !important;
   flex-shrink: 0;
   background-color: #ffffff;
   display: inline-block;
