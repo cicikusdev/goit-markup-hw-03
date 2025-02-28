@@ -302,7 +302,8 @@ header .logo-web {
 .types-portfolio {
   flex: 1;
   background-color: #ffffff;
-  width: calc((100% - 3 * 24px) / 4)}
+  width: calc((100% - 3 * 24px) / 4);
+}
 
 .types-portfolio img {
   width: 100%;
@@ -312,8 +313,11 @@ header .logo-web {
   padding: 120px 0;
 }
 
-.studio-link {
+.navigation ul li {
   padding: 24px 0;
+}
+.list-portfolio li:first-child {
+  width: calc((100% - 72px) / 4);
 }
 /*------------------------------------------------------------------*/
 
