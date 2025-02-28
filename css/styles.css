@@ -303,7 +303,6 @@ header .logo-web {
 .types-portfolio {
   flex: 1;
   background-color: #ffffff;
-  width: calc((100% - 3 * 24px) / 4);
 }
 
 .types-portfolio img {
@@ -326,10 +325,12 @@ header .logo-web {
 .header-links {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .types-portfolio:first-child .app-function {
   margin-bottom: 8px;
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .footer-studio {
