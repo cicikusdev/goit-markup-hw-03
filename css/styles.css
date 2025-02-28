@@ -301,8 +301,9 @@ header .logo-web {
 
 .types-portfolio {
   width: calc((100% - 72px) / 4);
-  flex: 0 1 calc((100% - 72px) / 4);
+  flex-shrink: 0;
   background-color: #ffffff;
+  display: inline-block;
 }
 
 .types-portfolio img {
