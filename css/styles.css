@@ -285,10 +285,9 @@ header .logo-web {
 
 .list-portfolio {
   display: flex;
-  row-gap: 48px;
-  margin-left: 0;
+  justify-content: center;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  row-gap: 48px;
   column-gap: 24px;
 }
 
@@ -300,10 +299,10 @@ header .logo-web {
 }
 
 .types-portfolio {
-  flex-basis: calc((100% - 72px) / 4);
-  flex-shrink: 0;
-  background-color: #ffffff;
-  display: inline-block;
+  margin: 0;
+  max-width: 360px;
+  max-height: 420px;
+  width: calc((100% - 48px) / 3);
 }
 
 .types-portfolio img {
