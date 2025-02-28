@@ -302,6 +302,7 @@ header .logo-web {
 .types-portfolio {
   flex: 1;
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
 }
 
 .types-portfolio img {
